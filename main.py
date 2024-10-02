@@ -25,7 +25,7 @@ def main():
     }
 
     # Prepare output folders
-    output_folder = f"{client_config.sync_folder}/{client_config.email}/app_pipelines/system_usage_recorder/"
+    output_folder = f"{client_config.sync_folder}/{client_config.email}/public/"
     os.makedirs(output_folder, exist_ok=True)
 
     # Write usage data to output file
