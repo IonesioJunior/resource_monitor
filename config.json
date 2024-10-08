@@ -1,0 +1,39 @@
+{
+  "version": 0.1.0,
+  "app": {
+    "dependencies": [],
+    "conflicts": [],
+    "event": [],
+    "run": {
+      "command": "python3 main.py",
+      "interval": "10"
+    },
+    "pin": true,
+    "enabled": true,
+    "install_path": "/resource_monitor",
+    "update": true,
+    "notes": "<additional_notes>",
+    "hooks": {
+      "pre_update": "<custom_command_or_code_before_update>",
+      "post_update": "<custom_command_or_code_after_update>",
+      "pre_load": "<custom_command_or_code_before_load>"
+    },
+    "env": {
+      "ENV_VAR_1": "<value_1>",
+      "ENV_VAR_2": "<value_2>"
+    },
+    "platforms": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "before_install": "pip install  psutils",
+    "after_install": [],
+    "priority": 10,
+    "metadata": {
+      "author": "Ionesio Junior",
+      "license": "MIT",
+      "version": "0.1.0"
+    }
+  }
+}
