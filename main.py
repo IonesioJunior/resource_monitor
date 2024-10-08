@@ -4,9 +4,12 @@ from datetime import datetime
 import psutil  # Ensure that you have psutil installed in your environment
 from syftbox.lib import ClientConfig
 
-def main():
+def main() -> None:
     # Load the client configuration
-    config_path = os.environ.get("SYFTBOX_CLIENT_CONFIG_PATH", None)
+    config_path = os.environ.get("SYFTBOX_CLIENT_CONFIG_PATH", "~/.syftbox/client_config.json")
+    if config_path is None:
+        print("Unable to get SYFTBOX_CLIENT_CONFIG_PATH value, exiting...")
+        return
     client_config = ClientConfig.load(config_path)
 
     # Get the current CPU and memory usage in percentage
