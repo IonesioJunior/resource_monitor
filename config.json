@@ -1,0 +1,16 @@
+{
+  "version": "0.1.0",
+  "app": {
+    "run": {
+      "command": "python3 main.py",
+      "interval": "10"
+    },
+    "install_path": "/resource_monitor",
+    "env": {},
+    "platforms": [],
+    "pre_install": [],
+    "post_install": [],
+    "pre_update": [],
+    "post_update": []
+  }
+}
