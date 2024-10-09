@@ -7,7 +7,7 @@
       "interval": "10"
     },
     "env": {},
-    "platforms": ["linux"],
+    "platforms": ["darwin"],
     "pre_install": ["pip", "install", "psutil"],
     "post_install": [],
     "pre_update": [],
