@@ -2,7 +2,7 @@
   "version": "0.1.0",
   "app": {
     "run": {
-      "command": "python3 main.py",
+      "command": ["python", "main.py"],
       "interval": "10"
     },
     "install_path": "/resource_monitor",
