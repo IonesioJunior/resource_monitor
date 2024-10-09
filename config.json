@@ -8,7 +8,7 @@
     },
     "install_path": "/resource_monitor",
     "env": {},
-    "platforms": ["windows"],
+    "platforms": ["linux"],
     "pre_install": ["pip", "install", "psutil"],
     "post_install": [],
     "pre_update": [],
