@@ -1,6 +1,7 @@
 {
   "version": "0.1.0",
   "app": {
+    "version": "0.1.0",
     "run": {
       "command": ["python", "main.py"],
       "interval": "10"
